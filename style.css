@@ -1,3 +1,10 @@
+body{
+	margin-top: 50px;
+	margin-left: 150px;
+	margin-right: 250px;
+	font-family: Roboto, "Ubuntu", Arial, sans-serif;
+    font-size: 81.25%;
+}
 .clear {
 	clear: both;
 }
@@ -10,18 +17,94 @@
 
 #name {
 	float: left;
+	line-height: 10px;
+	margin-left: 0%;
+    margin-top: 1%;    	
 }
-
-#contactDetails {
+#name h1{
+	font-family: Rokkitt;
+}
+#name h2{
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+	font-style: normal;
+	font-family:Rokkitt ;
+}
+#contactDetails  {
 	float: right;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 9pt;
+    font-family: Lato;
+    color: #444444;
+}
+a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9pt;
+    font-family: Lato;
+    color: #444444;;
+}
+ul{
+	list-style-type: none;
+	display:block;
+}
+a{
+	text-decoration: none;
 }
 
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 20%%;
+	color: #cf8a05;
 }
-
-.sectionContent {
+.sectionTitle h1{
+	margin: 20px;
+	font-weight: normal;
+	font-family: Rokkitt;
+	font-style: normal;
+	position: absolute;
+}
+.sectionContent  {
 	float: right;
 	width: 72.5%;
+	font-family: Rokkitt;
+	margin: 10px;
+}
+.sectionContent h2{
+	margin-top: 1px;
+	margin-bottom: 0px;
+	font-style: ;
+}
+.subDetails{
+	font-style: italic;
+	font-size: 11px;
+}
+.sectionContent p{
+	font-family: Lato;
+	margin: 2px;
+}
+#redonda{
+	height: 90px;
+	border-radius: 50%;
+}
+.alou{
+border-top: 2px solid #cf8a05;
+}
+.separacao{
+	border-top: 1px rgb(65, 64, 64);
+}
+.keySkills{
+	display:flex;
+	flex-wrap: wrap;
+}
+.keySkills li{
+	border-width: 1px;
+    flex: 0 0 33%;
+    height: 15px;
 }
